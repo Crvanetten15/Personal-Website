@@ -1,0 +1,23 @@
+h1 {
+  padding: 0px;
+  font-size: 4em;
+}
+
+#fname-styling {
+  color:#0070c9;
+}
+
+#opening-words {
+  font-weight: bold;
+  color: #D9d9d9;
+}
+
+#opening-words > * {
+  margin-top: 1px;
+  margin-bottom: 1px;
+  
+}
+
+#under-text {
+  font-weight: 400;
+}

@@ -1,0 +1,30 @@
+#left-panel {
+  width: 50vw;
+  /* border: 1px solid red; */
+  height: 50%;
+  display: flex; 
+  justify-content: center; 
+  align-items: center;
+  text-align: center;
+  transition: ease all .5s;
+  background-color: rgba(0, 0, 0, .6);
+  border-radius: 15px;
+  margin-left: 5%;
+  /* margin-top: 5%; */
+}
+
+@media screen and (max-width: 900px) {
+  #left-panel  {
+    width: 100%;
+    border-radius: 0px;
+  }
+}
+
+.back-image {
+  background-image: url('../assets/keyboard.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 100dvh; /* Ensures the background covers the full viewport height */
+
+}
