@@ -1,0 +1,40 @@
+/* Header.css */
+
+nav {
+  background-color: #424244;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+  box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.header-title {
+  color: #d9d9d9;
+  font-size: 20px;
+  margin: 0;
+}
+
+.header-tags {
+  list-style: none;
+  padding: 0;
+  display: flex;
+}
+
+.header-tags li {
+  margin: 0;
+  padding: 0 15px;
+}
+
+.header-tags a {
+  color: #d9d9d9;
+  text-decoration: none;
+  font-size: 14px;
+  font-weight: bold;
+  transition: color 0.3s ease-in-out;
+}
+
+.header-tags a:hover {
+  /* color: #0070c9;  */
+  color: #ffffff; 
+}
