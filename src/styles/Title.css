@@ -2,22 +2,36 @@ h1 {
   padding: 0px;
   font-size: 4em;
 }
+#top-words{
+  position: relative;
+  color: #333;
+}
 
 #fname-styling {
   color:#0070c9;
+  text-shadow: 1px 1px #131313;
 }
 
 #opening-words {
   font-weight: bold;
   color: #D9d9d9;
+  max-width: 80%;
+  /* border: #0070c9 1px solid; */
 }
 
 #opening-words > * {
   margin-top: 1px;
   margin-bottom: 1px;
-  
 }
 
 #under-text {
   font-weight: 400;
+}
+
+#element {
+  margin-top: 15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* border: #0070c9 1px solid; */
 }

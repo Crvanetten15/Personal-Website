@@ -1,0 +1,16 @@
+/* IconsRow.css */
+
+.icons-row {
+  display: flex;
+  gap: 20px;
+}
+
+.icon {
+  font-size: 2rem;
+  color: #333;
+  transition: color 0.3s ease-in-out;
+}
+
+.icon:hover {
+  color: #0070c9; /* Change color on hover */
+}

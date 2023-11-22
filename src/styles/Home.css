@@ -1,30 +1,56 @@
-#left-panel {
-  width: 50vw;
+.panel {
+  min-width: 30%;
   /* border: 1px solid red; */
   height: 50%;
   display: flex; 
+  flex-direction: column;
   justify-content: center; 
   align-items: center;
   text-align: center;
   transition: ease all .5s;
   background-color: rgba(0, 0, 0, .6);
   border-radius: 15px;
-  margin-left: 5%;
-  /* margin-top: 5%; */
-}
-
-@media screen and (max-width: 900px) {
-  #left-panel  {
-    width: 100%;
-    border-radius: 0px;
-  }
+  margin-left: 5px;
+  margin-right: 5px;
+  margin-top: 5%;
+  padding: 15px;
 }
 
 .back-image {
-  background-image: url('../assets/keyboard.jpg');
+  background-image: url('../assets/stock.jpg');
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
-  height: 100dvh; /* Ensures the background covers the full viewport height */
-
+  height: 100vh; /* Corrected: Ensure it's vh, not dvh */
+  /* border: 1px solid red; */
+  display: flex; 
+  justify-content: space-between;
 }
+
+.panel-text {
+  max-width: 40%;
+}
+.panel-img {
+  margin-right: 5px;
+}
+
+@media screen and (max-width: 900px) {
+  .panel {
+    /* width: 100%; */
+    border-radius: 0px;
+    margin: 0px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+  }
+  .back-image {
+    display: flex; 
+    flex-direction: column;
+    justify-content: start;
+
+  }
+  .panel-text{
+    height: 30%;
+    max-width: 100%;
+  }
+}
+
