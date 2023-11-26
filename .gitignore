@@ -24,4 +24,4 @@ dist-ssr
 *.sw?
 
 # Added Tracking Files 
-.originalapp
+.originalapp.jsx

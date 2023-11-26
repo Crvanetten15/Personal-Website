@@ -1,6 +1,6 @@
-// Header.js
-
+// eslint-disable-next-line no-unused-vars
 import React from 'react';
+
 import '../styles/Header.css'; // Import the CSS file
 
 const Header = () => {
